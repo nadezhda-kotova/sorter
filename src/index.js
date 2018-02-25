@@ -30,20 +30,9 @@ class Sorter {
     for (let i = 0; i < indices.length; i++) {
       this.array[indices[i]] = items[i];
     }
-  }
+  
 
-  setComparator(compareFunction) {
-    compareFunction(a,b)
-    {
-      if (a == b)
-      return 0;
-      if  (a > b)
-      return 1;
-      else
-      return -1;
-    }
-    reverseCompareFunction = (left, right) => right - left;
-  sorter.setComparator(reverseCompareFunction);}
+  
   
 
 }
