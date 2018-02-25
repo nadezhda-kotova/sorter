@@ -1,7 +1,6 @@
 class Sorter {
   constructor() {
     this.array = [];
-    this._length = this.array.length;
   }
 
   add(element) {
@@ -30,11 +29,6 @@ class Sorter {
     for (let i = 0; i < indices.length; i++) {
       this.array[indices[i]] = items[i];
     }
-  
-
-  
-  
-
 }
 
 module.exports = Sorter;
